@@ -7,10 +7,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Triangle Quiz</title>
 </head>
+<link rel="stylesheet" href="Triangle.css">
 
 <body>
+    <header>
+        <h2>Fun with Triangle</h2>
+        <nav>
+            <a href="istriangle.html">Is Triangle?</a>
+            <a href="quiz.html">Quiz</a>
+            <a href="hypotenuse.html">Hypotenuse</a>
+            <a href="areaOfTriangle.html">Area of Triangle</a>
+        </nav>
+    </header>
+
     <h1>Triangle Quiz</h1>
-    <form>
+    <form class="quiz-form">
         <div class="que-container">
 
             <p>What is the third angle for the triangle where angle1=40° and angle2=50°?</p>
@@ -19,20 +30,33 @@
             <label><input type="radio" name="same" value="90°" />90°</label>
 
 
-            <p>What is the third angle for the triangle where angle1=40° and angle2=50°?</p>
-            <label><input type="radio" name="same1" value="60°" />60°</label>
-            <label><input type="radio" name="same1" value="80°" />80°</label>
-            <label><input type="radio" name="same1" value="90°" />90°</label>
+            <p>What is the third angle for the triangle where angle1 = 45° and angle2 = 45°?</p>
+            <label><input type="radio" name="same1" value="Obtuse angle" />Obtuse angle</label>
+            <label><input type="radio" name="same1" value="Acute angle" />Acute angle</label>
+            <label><input type="radio" name="same1" value="Right angle" />Right angle</label>
 
 
-            <p>What is the third angle for the triangle where angle1=40° and angle2=50°?</p>
-            <label><input type="radio" name="same2" value="60°" />60°</label>
-            <label><input type="radio" name="same2" value="80°" />80°</label>
-            <label><input type="radio" name="same2" value="90°" />90°</label>
+            <p>A triangle which have two sides equal is_______?</p>
+            <label><input type="radio" name="same2" value="Isosceles Triangle" />Isosceles Triangle</label>
+            <label><input type="radio" name="same2" value="Equilateral Triangle" />Equilateral Triangle</label>
+            <label><input type="radio" name="same2" value="Scalene Triangle" />Scalene Triangle</label>
+
+            <p>A triangle which have all sides equal is_______?</p>
+            <label><input type="radio" name="same3" value="Isosceles Triangle" />Isosceles Triangle</label>
+            <label><input type="radio" name="same3" value="Equilateral Triangle" />Equilateral Triangle</label>
+            <label><input type="radio" name="same3" value="Scalene Triangle" />Scalene Triangle</label>
+
+            <p>A triangle which have 60° angle is always_______?</p>
+            <label><input type="radio" name="same4" value="Isosceles Triangle" />Isosceles Triangle</label>
+            <label><input type="radio" name="same4" value="Equilateral Triangle" />Equilateral Triangle</label>
+            <label><input type="radio" name="same4" value="Scalene Triangle" />Scalene Triangle</label>
+
 
         </div>
 
     </form>
+    <button id="submit-ans-btn">Submit</button>
+    <div id="output"></div>
 
     <script src="quiz.js"></script>
 </body>

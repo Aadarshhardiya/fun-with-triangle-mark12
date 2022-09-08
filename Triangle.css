@@ -1,0 +1,149 @@
+*{
+    margin: 0%;
+}
+
+nav{
+    text-align: right;
+
+}
+
+header{
+    text-align: left;
+    background-color:blueviolet;
+    color:whitesmoke;
+    padding: 1rem;
+    font-variant: small-caps;
+    
+}
+
+body{ 
+    text-align: center;
+    background-color:cornsilk;
+    
+}
+
+
+a{
+    color:whitesmoke;
+    font-size: large;
+    padding: .5rem;
+
+}
+
+.main {
+    padding: rem;
+}
+
+label {
+    font-size:medium;       
+    display:inline-block;
+    padding: 1rem;
+    margin: auto;
+    
+}
+
+h1{
+    font-weight:500;
+    font-size: 6vh;
+    padding: 2rem;
+    color:blueviolet;
+}
+
+h2{
+    font-family: Papyrus;
+}
+
+
+p{
+    font-size: larger;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    font-display: solid black;
+}
+
+
+.angle-input{
+    width: 256px;
+    height: 5vh;
+    margin: auto;
+    display: block;
+    box-sizing: border-box;
+    cursor: text;
+    border-radius: .5rem;
+    border: solid darkviolet;;
+}
+
+
+.side-input{
+    width: 256px;
+    height: 5vh;
+    margin: auto;
+    display: block;
+    box-sizing: border-box;
+    cursor: text;
+    border-radius: .5rem;
+    border: solid darkviolet;
+    
+}
+
+.sides-input{
+    width: 256px;
+    height: 5vh;
+    margin: auto;
+    display: block;
+    box-sizing: border-box;
+    cursor: text;
+    border-radius: .5rem;
+    border: solid darkviolet;
+
+}
+
+#is-triangle-btn{
+    font-weight:bolder;
+    color:whitesmoke;
+    box-sizing: border-box;
+    margin: 2rem;
+    height: 4vh;
+    width : 5rem;
+    background-color:darkorchid ;
+    border-radius: .5rem;
+}
+
+#calculate-btn{
+    font-weight:bolder;
+    color:whitesmoke;
+    box-sizing: border-box;
+    margin: 2rem;
+    height: 5vh;
+    width : 8rem;
+    background-color:darkorchid ;
+    border-radius: .5rem;
+}
+
+#hypotenuse-btn{
+    font-weight:bolder;
+    color:whitesmoke;
+    box-sizing: border-box;
+    margin: 2rem;
+    height: 5vh;
+    width : 8rem;
+    background-color:darkorchid ;
+    border-radius: .5rem;
+}
+
+#submit-ans-btn{
+    font-weight:bolder;
+    color:whitesmoke;
+    box-sizing: border-box;
+    margin-top: 1rem;
+    height: 5vh;
+    width : 8rem;
+    background-color:darkorchid ;
+    border-radius: .5rem;
+}
+
+#output {
+    font-size: large;
+    padding: 1rem;
+    color: red;
+}
