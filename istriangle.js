@@ -10,18 +10,19 @@ function calculateSumOfAngles(angle1,angle2,angle3) {
 
 function isTriangle() {
     
-    const sumOfAngles = calculateSumOfAngles(inputs[0].value)(inputs[1].value)(inputs[2].value);
-
-    if(inputs[0].value <0 && inputs[1].value <0 && inputs[2].value < 0) {
+    if(inputs[0].value <0 || inputs[1].value <0 || inputs[2].value < 0) {
         outputEl.innerText = "Please put positive value, triangle angle's value never be negative"
-    }
+    }  
+    else{
 
-    else if(sumOfAngles === 180){
-        outputEl.innerText = "These angles form a Triangle-🔺";
-    }
-    else {
-        outputEl.innerText = "These angles do not form a Triangle-🙃";
+        const sumOfAngles = calculateSumOfAngles(inputs[0].value, inputs[1].value, inputs[2].value);
 
+        if(sumOfAngles === 180){
+            outputEl.innerText = "These angles form a Triangle-🔺";
+        }
+        else {
+            outputEl.innerText = "These angles do not form a Triangle-🙃";
+        }
     }
 }
 
